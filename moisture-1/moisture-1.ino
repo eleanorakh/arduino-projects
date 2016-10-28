@@ -13,7 +13,6 @@ void loop() {
   delay(500);
 
   if (measurement <400) {
-    Serial.print("Moisture too low");
     digitalWrite(8, LOW);
     digitalWrite(7, HIGH);
   }
